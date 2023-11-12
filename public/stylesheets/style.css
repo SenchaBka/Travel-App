@@ -1,0 +1,28 @@
+body{
+    background-color: #FFFCE6;
+    width: 80%;
+    margin: 35px auto;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #F6F4ED;
+}
+
+/*mobile version*/
+@media only screen and (max-width: 480px) {
+    /*home page*/
+    nav{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    nav a + a{
+        margin-left: 20px;
+    }
+
+    .smaller_img{
+        padding: 5px 0;
+    }
+}
