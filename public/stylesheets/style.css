@@ -29,6 +29,8 @@ a:link, a:visited, a:hover, a:active{
 
     .smaller_img{
         padding: 5px 0;
+        width: 35px;
+        height: 35px;
     }
 
     main{
@@ -75,4 +77,14 @@ a:link, a:visited, a:hover, a:active{
         margin: 10px auto;
         width: 60%;
     }
+
+    main h1{
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    #popular #destinations{
+        width: 100%;
+    } 
 }
