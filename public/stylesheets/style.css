@@ -171,6 +171,7 @@ a:active {
 
     main {
         margin-top: 150px;
+        text-align: center;
     }
 
     main form#search{
@@ -229,11 +230,12 @@ a:active {
     main h1 {
         font-family: 'Playfair Display';
         font-weight: 400;
+        margin-top: 80px;
         font-size: 32px;
     }
 
     #popular #destinations {
-        width: 100%;
+        width: 20%;
     }
 
     .post img {
@@ -244,6 +246,14 @@ a:active {
         font-size: 22px;
         color: black;
         margin: 10px 0px 25px 0px;
+    }
+
+    div.news{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
     }
 
 }
