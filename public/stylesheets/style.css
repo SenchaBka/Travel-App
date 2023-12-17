@@ -1,10 +1,13 @@
-body{
+body {
     background-color: #FFFCE6;
     width: 80%;
     margin: 35px auto;
 }
 
-a:link, a:visited, a:hover, a:active{
+a:link,
+a:visited,
+a:hover,
+a:active {
     text-decoration: none;
     color: #F6F4ED;
 }
@@ -12,32 +15,33 @@ a:link, a:visited, a:hover, a:active{
 ::placeholder {
     color: black;
     font-size: 14px;
-  }
+}
 
 /*mobile version*/
 @media only screen and (max-width: 480px) {
+
     /*home page*/
-    nav{
+    nav {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
     }
 
-    nav a + a{
+    nav a+a {
         margin-left: 20px;
     }
 
-    .smaller_img{
+    .smaller_img {
         padding: 5px 0;
         width: 35px;
         height: 35px;
     }
 
-    main{
+    main {
         margin-top: 20px;
     }
 
-    main #search #destination{
+    main #search #destination {
         background-color: #FFFCE6;
         width: 100%;
         padding: 14px 0;
@@ -48,11 +52,11 @@ a:link, a:visited, a:hover, a:active{
         margin-bottom: 2px;
     }
 
-    main #search div{
+    main #search div {
         display: flex;
     }
 
-    main #search #dates{
+    main #search #dates {
         background-color: #FFFCE6;
         width: 50%;
         padding: 14px 0;
@@ -60,9 +64,9 @@ a:link, a:visited, a:hover, a:active{
         border-style: solid;
         text-align: center;
         border-width: 2px 1px 2px 2px;
-    } 
+    }
 
-    main #search #people{
+    main #search #people {
         background-color: #FFFCE6;
         width: 50%;
         padding: 14px 0;
@@ -72,29 +76,69 @@ a:link, a:visited, a:hover, a:active{
         border-width: 2px 2px 2px 1px;
     }
 
-    main #search #submit{
+    main #search #submit {
         display: block;
         margin: 10px auto;
         width: 60%;
     }
 
-    main h1{
+    main h1 {
         font-family: 'Playfair Display';
         font-weight: 400;
         font-size: 32px;
     }
 
-    #popular #destinations{
+    #popular #destinations {
         width: 100%;
-    } 
+    }
 
-    .post img{
+    .post img {
         margin: -10px 0px;
     }
 
-    .post p{
+    .post p {
         font-size: 22px;
         color: black;
         margin: 10px 0px 25px 0px;
+    }
+
+    /*Login page*/
+
+    h1.auth {
+        font-size: 25px;
+        font-weight: 600;
+        width: fit-content;
+        margin: 150px auto 50px;
+    }
+
+    main#auth .email,
+    .password {
+        background-color: #FFFCE6;
+        width: 90%;
+        font-size: 15px;
+        margin: auto 0px;
+        padding: 12px 15px;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    main#auth p{
+        font-size: 18px;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }
+
+    main#auth #submit {
+        display: block;
+        margin: 40px auto;
+        width: 55%;
+        background-color:#FF6933;
+        color: #fff;
+        padding: 12px 12px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 25px;
+        font-size: 15px;
     }
 }
