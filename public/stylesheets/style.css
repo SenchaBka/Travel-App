@@ -112,7 +112,7 @@ a:active {
     }
 
     main#auth .email,
-    .password {
+    .password, .fullName {
         background-color: #FFFCE6;
         width: 90%;
         font-size: 15px;
