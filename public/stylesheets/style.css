@@ -87,4 +87,14 @@ a:link, a:visited, a:hover, a:active{
     #popular #destinations{
         width: 100%;
     } 
+
+    .post img{
+        margin: -10px 0px;
+    }
+
+    .post p{
+        font-size: 22px;
+        color: black;
+        margin: 10px 0px 25px 0px;
+    }
 }
